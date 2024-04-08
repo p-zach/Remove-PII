@@ -37,6 +37,7 @@ print(cleanString(text))
 
 # piiNE is a list parameter with a default value of ["PERSON", "ORGANIZATION", "GPE", "LOCATION"]. 
 # The program will remove any named entities that fit into the categories in the list.
+# GPE stands for geopolitical entity.
 # piiNums is a list parameter with a default value of ["PHONE", "EMAIL", "SSN"]. Like piiNE, any 
 # information in the text that falls into a category in the list will be removed.
 
